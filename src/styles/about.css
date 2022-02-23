@@ -1,0 +1,27 @@
+.about-wrapper {
+	position: relative;
+	overflow: hidden;
+	padding: 50px 0 150px 0;
+	background: #0050ff;
+}
+
+.about-content {
+	position: relative;
+	top: 0;
+	margin: 0 10px;
+}
+
+.about-svg {
+	width: 800px;
+}
+
+.main-content p {
+	max-width: 60ch;
+	margin: 10px;
+}
+
+@media (max-width: 768px) {
+	.about-svg {
+		display: none;
+	}
+}
